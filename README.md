@@ -1,7 +1,6 @@
 # noSQLWorkoutTracker
  a workout tracker created w/Mongo database, a Mongoose schema and handle routes with Express.
 
-
 ## URL
 https://lawna12.github.io/noSQLWorkoutTracker/
 
