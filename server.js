@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 app.use(require("./routes/routes.js"))
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 app.listen(PORT, () => {
   console.log(`App running on: http://localhost${PORT}!`);

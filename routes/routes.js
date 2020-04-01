@@ -26,9 +26,11 @@ router.get('/api/workouts/', (req, res) => {
 router.get('/api/workouts/range', (req, res) => {
     db.Workout.find({})
     .then(dbRanges => {
+        console.log(dbRanges)
         res.json(dbRanges);
     })
     .catch(err => {
+        console.log(err)
         res.json(err);
     });
 });
@@ -36,9 +38,12 @@ router.get('/api/workouts/range', (req, res) => {
 router.post('/api/workouts', (req, res) => {
     db.Workout.create(req.body)
     .then(done => {
+        console.log(req.body)
+        console.log(done)
         res.json(done);
     })
     .catch(err => {
+        console.log(err)
         res.json(err)
     });
 });
