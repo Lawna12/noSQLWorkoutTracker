@@ -2,8 +2,8 @@
  a workout tracker created w/Mongo database, a Mongoose schema and handle routes with Express.
 
 ## URL
-https://quiet-cove-75057.herokuapp.com/
-https://lawna12.github.io/noSQLWorkoutTracker/
+- https://no-sql-workout-tracker.herokuapp.com/
+- https://lawna12.github.io/noSQLWorkoutTracker/
 
 ## User Story
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
